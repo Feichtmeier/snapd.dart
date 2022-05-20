@@ -943,7 +943,7 @@ class SnapdClient {
       request['revision'] = revision;
     }
     if (classic) {
-      request['classic'] = true;
+      request['--classic'] = true;
     }
     if (dangerous) {
       request['dangerous'] = true;
